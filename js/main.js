@@ -27,3 +27,6 @@ $('.pages__btn--prev').click(function () {
 $('.pages__btn--next').click(function () {
     owl.trigger('next.owl.carousel');
 })
+
+
+AOS.init();

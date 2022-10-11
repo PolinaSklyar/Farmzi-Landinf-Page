@@ -130,11 +130,12 @@
     .results__item {
         padding: 25px 57.5px;
     }
-    .results__item::after{
+
+    .results__item::after {
         display: none;
     }
 
-    .member-item__img img{
+    .member-item__img img {
         max-width: 100%;
     }
 }
@@ -168,5 +169,6 @@
 
 @media (max-width: 420px) {
     .footer-medium {
-        padding: 67px 36px 70px 36px;}
+        padding: 67px 36px 70px 36px;
+    }
 }
